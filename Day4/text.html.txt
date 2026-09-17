@@ -1,0 +1,29 @@
+HTML is used to create and structure the content of web pages. It tells the browser what each part of the page is, such as headings, paragraphs, images, links, lists, and forms.
+Most Common HTML Tags
+HTML contains many tags, but these are some of the most commonly used ones:
+<html> — Defines the main structure of the HTML document.
+<head> — Contains information about the webpage.
+<title> — Defines the title that appears in the browser tab.
+<body> — Contains all the visible content of the webpage.
+<h1> to <h6> — Used to create headings, from the largest to the smallest.
+<p> — Used to write paragraphs.
+<a> — Used to create hyperlinks.
+<img> — Used to display images.
+<br> — Used to create a line break.
+<hr> — Used to add a horizontal line.
+<ul> — Creates an unordered list with bullet points.
+<ol> — Creates an ordered list with numbers.
+<li> — Defines an item inside a list.
+<div> — Used to group and organize content.
+<span> — Used to style or group a small part of text.
+<form> — Used to create forms for collecting user data.
+<label> — Defines a label for a form input.
+<input> — Used to create input fields.
+<textarea> — Creates a multi-line text input.
+<button> — Creates a clickable button.
+<select> — Creates a dropdown menu.
+<option> — Defines an option inside a dropdown menu.
+<table> — Used to create tables.
+<tr> — Defines a table row.
+<th> — Defines a table heading.
+<td> — Defines a table data cell.
