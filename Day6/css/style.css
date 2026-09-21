@@ -1,0 +1,53 @@
+body{
+    background-image: url(../images/WhatsApp\ Image\ 2026-09-21\ at\ 02.56.50.jpeg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+header h2{
+    color: rgba(120, 9, 223, 0.568);
+}
+header>div>img{
+    width: 100px;
+}
+header div{
+    text-align: right;
+}
+header a{
+    text-decoration: none;
+}
+header a:hover{
+    color: rgb(160, 107, 209);
+}
+ h2{
+    color:  rgb(132, 20, 238);
+}
+#about{
+    text-align: center;
+}
+.skills{
+    text-align: center;
+
+}
+#contact h2{
+    text-align: center;
+}
+span{
+    color: black;
+    cursor: pointer;
+
+}
+span:hover{
+    color: blueviolet;
+}
+input{
+    background-color: blueviolet;
+    border-radius: 20px;
+    cursor: pointer;
+}
+input:hover{
+    background-color: aliceblue;
+}
