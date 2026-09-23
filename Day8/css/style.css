@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: url(../img/back\ img.jpg);
+    background-size:100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 6px 1px 1px rgba(123, 120, 120, 0.33);
+}
+:root{
+--first-color:  rgb(159, 99, 21);
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px ;
+    margin: 0 auto 10px auto;
+    
+
+}
+.logo{
+    padding: 0 120px;
+    color: var(--first-color);
+}
+.nav a{
+    padding: 0 5px;
+    text-decoration: none;
+    color:var(--first-color);
+
+}
+.nav a:hover{
+    color: rgb(63, 38, 5);
+}
+.cont{
+    margin: 100px;
+    padding-bottom: 100px;
+}
+.cont p{
+    padding: 18px 0;
+    width: 300px;
+    margin: 0 auto;
+}
+.cont button{
+    margin: 0 10px;
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+    color: aliceblue;
+    border: none;
+    border: 2px solid;
+
+}
+.cont button:hover{
+    background-color: rgb(117, 93, 68);
+}
+.main{
+    width: 50%;
+    margin: 150px auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img img{
+    width: 400px;
+    height: 400px;
+    margin: 0 50px;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px 2px rgb(132, 129, 129);
+    
+}
+
+.det p{
+    width: 300px;
+    
+}
+.det ul li{
+    padding: 12px 0 ;
+}
