@@ -38,7 +38,8 @@ body{
     height: 22px;
     background-color: rgb(59, 7, 108);
     margin: 10px auto;
-    border: 2px solid black;
+ border:2px solid black;
+
 }
 .card button:hover{
     background-color: blueviolet;
