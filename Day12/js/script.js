@@ -1,44 +1,34 @@
-for (var s=0; s<=10;i++) {
-    
-    if (s>=0 && s<=10) {
-        console.log(s)
-    };
-};
-var q = 11;
-while (q++) {
-    if (q>=11 && q>=20) {
-        console.log(q);
-    };
-};
-var user={
-    name:`rehab`,
-    age:`21`,
-    job:`Engineering`,
-     sister:{
-        name:`dalia`,
-        age:`20`,
-        job:`Engineering`,
-     }
-};
-var r = 50;
-do {
-    if (r>=50 && r>=60) {
-        console.log(r);
-    }
-} while (r++);
-var person={
-    name:`Ahmed`,
-    age:`21`,
-    job:`Engineering`,
-     frind:{
-        name:`youssif`,
-        age:`20`,
-        job:`Engineering`,
-     }
-};
-function getResult(x,y) {
+ var person = {
+    fullName: 'Rehab Rabea',
+    age: 20,
+    gender: 'Female',
+    job: 'Front-End Developer',
+    salary: 18000,
+    city: 'Cairo',
+    isStudent: true,
 
-  var  result = (x + y);
-    return result;
+    sister: {
+        fullName: '*',
+        age: 25,
+        gender: 'Female',
+        husband: {
+            fullName: '*',
+            age: 28,
+            gender: 'Male'
+        }
+    }
+
+    eat: function(meal) {
+        console.log(Eating: ${meal});
+    }
 };
-getResult(12,10);
+
+console.log(person);
+
+console.log(person.sister.husband.fullName);
+
+person.eat('Pizza');
+
+Object.entries(person).forEach(([key, value]) => {
+    console.log(Key: ${key}, Value: ${value});
+});

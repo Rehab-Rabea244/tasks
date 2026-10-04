@@ -1,0 +1,56 @@
+ 
+*{
+    margin: 0;
+    padding:0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color:#e2ba9a ;
+}
+#header{
+    position: fixed;
+    background-color:#fff;
+    width: 100%;
+    border:1px solid #ccc ;
+}
+#header .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    height: 80px;
+}
+.logo{
+    width: 300px;
+}
+#header .navbar ul{
+    display: flex;
+
+}
+#header .navbar ul li a{
+    color: black;
+    font-weight: 500px;
+    font-size: 19px;
+    transition: all .4s;
+    margin: 0 40px;
+}
+#header .navbar ul li a:hover{
+color:rgb(191, 132, 36);
+}
+.container{
+    max-width: 1200px;
+}
+#Hom .Home-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2px;
+    align-items: center;
+    min-height: 100vh;
+
+}
